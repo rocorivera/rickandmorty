@@ -42,7 +42,7 @@ function App() {
       </form>
       {
         hasError
-        ?<h2>❌ hey! you must provide an id from 1 to 126😥</h2>
+        ?<h2 className='err'>❌ hey! you must provide an id from 1 to 126😥</h2>
         :(
         <>
       <Locationinfo 
